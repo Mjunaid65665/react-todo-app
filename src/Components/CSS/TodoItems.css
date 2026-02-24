@@ -1,0 +1,28 @@
+.todo-Items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+
+.todos-items-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* padding: 0px 20px; */
+}
+.todo-item-text{
+    font-size: 18px;
+    color: #333;
+    margin-left: 10px;
+}
+.line-through{
+    text-decoration: line-through;
+    color: #999;
+}
+  .todoscross-icon {
+    color: red;
+    cursor: pointer;
+}
